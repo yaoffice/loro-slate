@@ -1,11 +1,19 @@
 {
   "name": "loro-slate",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaoffice/loro-slate.git"
+  },
   "exports": {
     ".": "./dist/loro-slate.js"
   },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
