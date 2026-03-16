@@ -8,7 +8,10 @@
     "url": "git+https://github.com/yaoffice/loro-slate.git"
   },
   "exports": {
-    ".": "./dist/loro-slate.js"
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/loro-slate.js"
+    }
   },
   "types": "./dist/index.d.ts",
   "files": [

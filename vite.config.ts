@@ -19,7 +19,7 @@ export default defineConfig({
       entry: "src/index.ts",
     },
     rollupOptions: {
-      external: ["loro-crdt", "slate", "slate-react"],
+      external: ["loro-crdt", "slate", "slate-react", "react", "react/jsx-runtime", "react-dom"],
     },
   },
 });
