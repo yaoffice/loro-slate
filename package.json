@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yaoffice/loro-slate.git"
+    "url": "git+https://github.com/collastack/loro-slate.git"
   },
   "exports": {
     ".": {
